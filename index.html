@@ -1,0 +1,38 @@
+<!-- Здесь следует добавить "http://www.w3.org/TR/html4/loose.dtd" -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <!-- Теги title и meta нужно поместить в тег head -->
+  <head>
+    <!-- в закрывающем теге title не хватало слэша-->
+    <!-- <title>Glossary<title> -->
+    <title>Glossary</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <!-- в строчные элементы нельзя помещать блочные элементы -->
+    <!-- <a href="glosstop.html"><h1>Glossary of Terms</h1></a> -->
+    <h1>
+      <a href="glosstop.html">Glossary of Terms</a>
+    </h1>
+    <!-- span - строчный элемент, а h1 блочный, поэтому span использовать здесь нельзя, 
+      тем более от него, в данной ситуации, нет никакого смысла -->
+    <!-- <span> -->
+    <h2>
+      <!-- Тег p здесь не имеет смысла -->
+      <!-- <p> -->
+      Algorithmic Oriented Language.
+    </h2>
+    <!-- </p> -->
+    <!-- </span> -->
+
+    <!-- нельзя оборачивать блочные элементы в строчные -->
+    <!-- <span> -->
+    <h2>
+      <!-- Здесь точно так же тег p не имеет смысла -->
+      <!-- <p> -->
+      Creates new project
+      <!-- </p> -->
+    </h2>
+    <!-- </span> -->
+  </body>
+</html>
