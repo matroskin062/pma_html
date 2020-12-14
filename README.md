@@ -1,1 +1,1 @@
-### HTML/CSS Tasks for Parimatch Tech Academy
+### HTML/CSS Task for Parimatch Tech Academy
