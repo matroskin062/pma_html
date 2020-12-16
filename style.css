@@ -21,6 +21,7 @@
 .menu {
   display: flex;
   background-color: var(--main-color);
+  flex-wrap: wrap;
 }
 
 .menu-item {
